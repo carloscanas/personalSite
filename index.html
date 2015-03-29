@@ -1,259 +1,361 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
 <meta charset="utf-8">
-<title>Hello...</title>
+<title>Personal Site</title>
 <link rel="stylesheet" type="text/css" href="Main.css"/>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-
-
 </head>
 
 <body>
-	
-<div id="header">
-	<ul class="navMenu">
-				<li><div id="menuProfile"><a href="#h1"><h5>Profile</h5></a></div></li>
-				<li><a href="#h2"><h5>Experience</h5></a></li>
-				<li><a href="#h3"><h5>Abilities</h5></a></li>
-				<li><a href="#h4"><h5>Projects</h5></a></li>
-				<li><a href="#h5"><h5>Contact</h5></a></li>
-	</ul>
-</div>
-<div id="mainContent">
-	<div id="titlePage">
-		<div id="mainImage"></div>
-		<div id="mainTitle">
-			<h1>Carlos</h1>
-			<div id="titleLine">-------------</div>
-			<h3>Interactive Resume</h3>
-		</div>
-		<div id="navButton"></div>
-	</div>
-	
-	<div id="profilePage">
-		<div id="pageTitle">
-			<h2>Profile</h2>
-			<h4>I am a community jack-of-all-trades</h4>
-			<div id="titleLine">-------------</div>
-		</div>
-		
-		<div id="aboutMe">
-			<h4>About me</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.</p>
-		</div>
-		
-		<dic id="profileImage">
-			<img src="../jobsite/images/profileimage.jpg" alt="Profile_Image" style="width:300px;height:400px">
-		</dic>
-		
-		<div id="details">
-			<h4>Details</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.</p>
-			<a href="https://twitter.com/_carlosc_" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @_carlosc_</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-		</div>
-		
-	</div>
 
-	<div id="experiencePage">
-		<div id="pageTitle">
-			<h2>Experience</h2>
-			<div id="titleLine">-------------</div>
-		</div>
 
-	<div id="dividerLine"></div>
-
-	<h3>Work History</h3>
-	</br>
-	<div class="row">
-		<div id="placeholderColumn">
-			<h4>Wattpad</h4>
-			<p>February 2013 - present</p>
-		</div>
-		<div id="placeholderColumn">
-			<strong>Community Support Lead</strong>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
-			</br>
-			<strong>Interim Spanish Community Manager</strong>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
-			</br>
-			<strong>Community Support Specialist</strong>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
+<div id="container">	
+	<div id="sidebar">
+		<div class="col span_2_of_12">
+			<nav>
+				<a href="#h1"><h5>Profile</h5></a>
+				<a href="#h2"><h5>Experience</h5></a>
+				<a href="#h3"><h5>Abilities</h5></a>
+				<a href="#h4"><h5>Projects</h5></a>
+				<a href="#h5"><h5>Contact</h5></a>
+			</nav>
 		</div>
 	</div>
 
-	<div class="row">
-		<div id="placeholderColumn">
-			<h4>Canadian Natioal Railway</h4>
-			<p>November 2012 - February 2013</p>
-		</div>
-		<div id="placeholderColumn">
-			<strong>Website Content Specialist</strong>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
+
+	<div id="mainContent">
+		<div class="col span_10_of_12">
+			<div id="titlePage">
+				<div id="mainImage"></div>
+				<div id="mainTitle">
+					<h1>Carlos Canas</h1>
+					<h3>Interactive Resume</h3>
+				</div>
+				<div id="navButton"></div>
+			</div>
+
+			<div id="profilePage">
+				<div class="section group">
+					<div id="pageTitle">
+						<h2>Profile</h2>
+						<h4>I am a community jack-of-all-trades</h4>
+					</div>
+				</div>
+
+				<div class="section group">
+					<div class="dividerLine"></div>
+				</div>
+				
+				<div class="section group">
+					<div class="col span_4_of_12">
+						<div id="aboutMe">
+							<h4>About me</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.</p>
+						</div>
+					</div>
+					
+					<div class="col span_4_of_12">
+						<div id="profileImage">
+							<!--<img src="../jobsite/images/profileImage.jpg" alt="Profile_Image" style="width:300px;height:400px"> -->
+							<img src="https://drive.google.com/open?id=0B8lyJb1l2tuLQ2xwTy1OWGFlOUE&authuser=0" alt="Profile_Image" style="width:150px;height:200px">
+						</div>
+						
+						
+					</div>
+
+					<div class="col span_4_of_12">
+						<div id="details">
+							<h4>Details</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.</p>
+							<a href="https://twitter.com/_carlosc_" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @_carlosc_</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="experiencePage">
+				<div class="section group">		
+					<div id="pageTitle">
+						<h2>Experience</h2>
+					</div>
+				</div>
+
+				<div class="section group">
+					<div class="dividerLine"></div>
+				</div>
+
+			<div class="section group">
+				<h3>Work History</h3>
+			</div>
+			<div class="section group">
+					<div class="col span_6_of_12">
+						<h4>Wattpad</h4>
+						<p>February 2013 - present</p>
+					</div>
+					<div class="col span_6_of_12">
+						<div class="experienceList">
+							<strong>Community Support Lead</strong>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
+							</br>
+							<strong>Interim Spanish Community Manager</strong>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
+							</br>
+							<strong>Community Support Specialist</strong>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
+						</div>
+					</div>
+			</div>
+
+			<div class="section group">
+				<div class="col span_6_of_12">
+					<h4>Canadian National Railway</h4>
+					<p>November 2012 - February 2013</p>
+				</div>
+				<div class="col span_6_of_12">
+					<div class="experienceList">
+						<strong>Website Content Specialist</strong>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
+					</div>
+				</div>
+			</div>
+
+			<div class="section group">
+				<div class="dividerLine"></div>
+			</div>
+			
+			<div class="section group">
+				<h3>Education</h3>
+			</div>
+
+			<div class="section group">
+				<div class="col span_6_of_12">
+					<h4>Ryerson University</h4>
+					<p>2013 - present</p>
+				</div>
+				<div class="col span_6_of_12">
+					<div class="experienceList">
+						<strong>Certificate, Computer Programming Applications</strong>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
+					</div>
+				</div>
+			</div>
+
+			<div class="section group">
+				<div class="col span_6_of_12">
+					<h4>University of Western Ontario</h4>
+					<p>2007 - 2011</p>
+				</div>
+				<div class="col span_6_of_12">
+					<div class="experienceList">
+						<strong>Bachelor of Arts, Economics/Political Science</strong>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
+					</div>
+				</div>
+			</div>
+
+			</div>
+			<div id="abilitiesPage">
+				<div id="pageTitle">
+					<h2>Abilities</h2>
+				</div>
+
+				<div class="section group">
+					<div class="dividerLine"></div>
+				</div>
+
+				<h3>Skills</h3>
+				<div class="section group">
+					<div class="col span_3_of_12">
+						<p>CSS</p>
+					</div>
+					<div class="col span_3_of_12">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+					</div>
+					<div class="col span_3_of_12">
+						<p>Java</p>
+					</div>
+					<div class="col span_3_of_12">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+					</div>
+				</div>
+				<div class="section group">
+					<div class="col span_3_of_12">
+						<p>HTML</p>
+					</div>
+					<div class="col span_3_of_12">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+					</div>
+					<div class="col span_3_of_12">
+						<p>PHP</p>
+					</div>
+					<div class="col span_3_of_12">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+					</div>
+				</div>
+				<div class="section group">
+					<div class="col span_3_of_12">
+						<p>Javascript</p>
+					</div>
+					<div class="col span_3_of_12">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+					</div>
+					<div class="col span_3_of_12">
+						<p>Bootstrap</p>
+					</div>
+					<div class="col span_3_of_12">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+					</div>
+				</div>
+
+				<div class="section group">
+					<div class="dividerLine"></div>
+				</div>
+
+				<h3>Languages</h3>
+				<div class="section group">
+					<div class="col span_3_of_12">
+						<p>English</p>
+					</div>
+					<div class="col span_3_of_12">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+					</div>
+					<div class="col span_3_of_12">
+						<p>Spanish</p>
+					</div>
+					<div class="col span_3_of_12">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+						<img src="stars">
+					</div>
+				</div>
+
+				<div class="section group">
+					<div class="dividerLine"></div>
+				</div>
+
+				<h3>Tools</h3>
+				<div class="section group">
+					<div class="col span_6_of_12">
+						<p>Zendesk</p>
+					</div>
+					<div class="col span_6_of_12">
+						<p>Google Analytics</p>
+					</div>
+				</div>
+				<div class="section group">
+					<div class="col span_6_of_12">
+						<p>Google Drive</p>
+					</div>
+					<div class="col span_6_of_12">
+						<p>Microsoft Office</p>
+					</div>
+				</div>
+			</div>
+
+
+			<!--<div id="projectsPage">
+				<div id="pageTitle">
+					<h2>Projects</h2>
+				</div>
+			</div> -->
+
+			<div class="section group">
+					<div class="dividerLine"></div>
+			</div>
+
+
+
+			<div id="contactsPage">
+				<div id="pageTitle">
+					<h2>Contact</h2>
+				</div>
+			
+				<div class="section group">
+					<div class="dividerLine"></div>
+				</div>
+				<div class="section group">
+					<div class="col span_6_of_12">
+						<div class="col span_3_of_12">
+							<img src="mailIcon">
+						</div>
+						<div class="col span_3_of_12">
+							<p>carloscanas87@gmail.com</p>
+						</div>
+					</div>
+					<div class="col span_6_of_12">
+						<div class="col span_3_of_12">
+							<img src="linkedIn">
+						</div>
+						<div class="col span_3_of_12">
+							<p>carloscanas87</p>
+						</div>						
+					</div>
+				</div>
+				<div class="section group">
+					<div class="col span_6_of_12">
+						<div class="col span_3_of_12">
+							<img src="twitter">
+						</div>
+						<div class="col span_3_of_12">
+							<p>_carlosc_</p>
+						</div>
+					</div>
+					<div class="col span_6_of_12">
+						<div class="col span_3_of_12">
+							<img src="wattpad">
+						</div>
+						<div class="col span_3_of_12">
+							<p>wattpad.com/user/carlos</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="section group">
+					<div class="dividerLine"></div>
+				</div>
+
+				<div class="section group">
+					<!-- place in like and follow buttons -->
+				</div>
+
+			</div>
 		</div>
 	</div>
-
-	<div id="dividerLine"></div>
-	<h3>Education</h3>
-
-	<div class="row">
-		<div id="placeholderColumn">
-			<h4>Ryerson University</h4>
-			<p>2013 - present</p>
+	<!--<div class="col span_2_of_12">
+		<div id="sidebar">
+			<nav>
+				<a href="#h1"><h5>Profile</h5></a>
+				<a href="#h2"><h5>Experience</h5></a>
+				<a href="#h3"><h5>Abilities</h5></a>
+				<a href="#h4"><h5>Projects</h5></a>
+				<a href="#h5"><h5>Contact</h5></a>
+			</nav>
 		</div>
-		<div id="placeholderColumn">
-			<strong>Certificate, Computer Programming Applications</strong>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
-		</div>
-	</div>
-
-	<div class="row">
-		<div id="placeholderColumn">
-			<h4>University of Western Ontario</h4>
-			<p>2007 - 2011</p>
-		</div>
-		<div id="placeholderColumn">
-			<strong>Bachelor of Arts, Economics/Political Science</strong>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ullamcorper lectus eu sagittis. Vivamus commodo euismod semper.<p>
-		</div>
-	</div>
-
-	</div>
-	<div id="abilitiesPage">
-		<div id="pageTitle">
-			<h2>Abilities</h2>
-			<div id="titleLine">-------------</div>
-		</div>
-
-		<div id="dividerLine"></div>
-
-		<h3>Skills</h3>
-		<div class="row">
-			<div id="1quartercolumn">
-				<p>CSS</p>
-			</div>
-			<div id="1quartercolumn">
-				<img src="stars">
-			</div>
-			<div id="1quartercolumn">
-				<p>Java</p>
-			</div>
-			<div id="1quartercolumn">
-				<img src="stars">
-			</div>
-		</div>
-		<div class="row">
-			<div id="1quartercolumn">
-				<p>HTML</p>
-			</div>
-			<div id="1quartercolumn">
-				<img src="stars">
-			</div>
-			<div id="1quartercolumn">
-				<p>PHP</p>
-			</div>
-			<div id="1quartercolumn">
-				<img src="stars">
-			</div>
-		</div>
-		<div class="row">
-			<div id="1quartercolumn">
-				<p>Javascript</p>
-			</div>
-			<div id="1quartercolumn">
-				<img src="stars">
-			</div>
-			<div id="1quartercolumn">
-				<p>Bootstrap</p>
-			</div>
-			<div id="1quartercolumn">
-				<img src="stars">
-			</div>
-		</div>
-
-		<div id="dividerLine"></div>
-
-		<h3>Languages</h3>
-		<div class="row">
-			<div id="1quartercolumn">
-				<p>English</p>
-			</div>
-			<div id="1quartercolumn">
-				<img src="stars">
-			</div>
-			<div id="1quartercolumn">
-				<p>Spanish</p>
-			</div>
-			<div id="1quartercolumn">
-				<img src="stars">
-			</div>
-		</div>
-
-		<div id="dividerLine"></div>
-
-		<h3>Tools</h3>
-		<div class="row">
-			<div id="halfColumn"><p>Zendesk</p></div>
-			<div id="halfColumn"><p>Google Analytics</p></div>
-		</div>
-		<div class="row">
-			<div id="halfColumn"><p>Google Drive</p></div>
-			<div id="halfColumn"><p>Freshdesk</p></div>
-		</div>
-
-	</div>
-
-
-	<div id="projectsPage">
-		<div id="pageTitle">
-			<h2>Projects</h2>
-			<div id="titleLine">-------------</div>
-		</div>
-
-	<div id="dividerLine"></div>
-
-
-
-	</div>
-
-
-
-
-	<div id="contactsPage">
-		<div id="pageTitle">
-			<h2>Contact</h2>
-			<div id="titleLine">-------------</div>
-		</div>
-	
-	<div id="dividerLine"></div>
-
-		<div class="row">
-			<div id="halfColumn">
-				<img src="mailIcon">
-				<p>carloscanas87@gmail.com</p>
-			</div>
-			<div id="halfColumn">
-				<img src="linkedIn">
-				<p>carloscanas87</p>
-			</div>
-		</div>
-		<div class="row">
-			<div id="halfColumn">
-				<img src="twitter">
-				<p>_carlosc_</p>
-			</div>
-			<div id="halfColumn">
-				<img src="wattpad">
-				<p>wattpad.com/user/carlos</p>
-			</div>
-		</div>
-
-	<div id="dividerLine"></div>
-
-	</div>
+	</div> -->
 </div>
 
 <div id="Footer"><div>
