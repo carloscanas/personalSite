@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-">
 <head>
 <meta charset="utf-8">
 <title>Personal Site</title>
 <link rel="stylesheet" type="text/css" href="Main.css"/>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="menuitems/menuitems.min.js"></script>
 </head>
 
 <body>
 
 
 <div id="container">	
+	
+
 	<div id="sidebar">
 		<div class="col span_2_of_12">
 			<nav>
-				<a href="#h1"><h5>Profile</h5></a>
-				<a href="#h2"><h5>Experience</h5></a>
-				<a href="#h3"><h5>Abilities</h5></a>
-				<a href="#h4"><h5>Projects</h5></a>
-				<a href="#h5"><h5>Contact</h5></a>
+				<a id ="profileLink" href="#h1"><h5>Profile</h5></a>
+				<a id ="experienceLink" href="#h2"><h5>Experience</h5></a>
+				<a id ="abilitiesLink" href="#h3"><h5>Abilities</h5></a>
+				<a id ="projectsLink" href="#h4"><h5>Projects</h5></a>
+				<a id ="contactLink" href="#h5"><h5>Contact</h5></a>
 			</nav>
 		</div>
 	</div>
+
 
 
 	<div id="mainContent">
@@ -35,7 +39,7 @@
 				<div id="navButton"></div>
 			</div>
 
-			<div id="profilePage">
+			<div id="profilePage" id="profileLink">
 				<div class="section group">
 					<div id="pageTitle">
 						<h2>Profile</h2>
