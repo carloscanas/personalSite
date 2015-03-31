@@ -12,29 +12,52 @@ $(document).ready(function (){
     	}
     });
 
-    //Auto Scroll
-    function goToByScroll(id){
+    //Nav Auto Scroll
+    $("#profileLink").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#profilePage").offset().top
+      }, 750);
+    });
+    $("#experienceLink").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#experiencePage").offset().top
+      }, 750);
+    });
+    $("#abilitiesLink").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#abilitiesPage").offset().top
+      }, 750);
+    });
+    /*$("#projectsLink").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#projectsPage").offset().top
+      }, 750);
+    });*/
+    $("#contactLink").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#contactsPage").offset().top
+      }, 750);
+    });
+
+    
+  
+
+});
+
+
+
+/*function goToByScroll(id){
       // Remove "link" from the ID
     id = id.replace("link", "");
       // Scroll
     $('html,body').animate({
         scrollTop: $("#"+id).offset().top},
         'slow');
-    };
+    }
 
     $("nav > a").click(function(e) { 
       // Prevent a page reload when a link is pressed
     e.preventDefault(); 
       // Call the scroll function
     goToByScroll($(this).attr("id")); 
-    });
-
-});
-
-
-function autoScrollTo(el) {
-  var element = $('#'+el);
-  $('html,body').animate({scrollTop: $(element).offset().top});
-}
-
-
+    });*/

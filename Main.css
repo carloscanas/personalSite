@@ -36,9 +36,14 @@ h1 {
 
 #titlePage {
 	text-align:center;
+  height:100vh;
 }
 
 /* PROFILE PAGE */
+
+#profilePage {
+  height: 80vh;
+}
 
 #pageTitle {
 	text-align: center;
@@ -52,10 +57,19 @@ h1 {
 
 /* EXPERIENCE PAGE */
 
+#experiencePage {
+  height: 80vh;
+}
+
 .experienceList {
   margin-top: 23px;
 }
 
+/* ABILITIES PAGE */
+
+#abilitiesPage {
+  height: 80vh;
+}
 
 
 
