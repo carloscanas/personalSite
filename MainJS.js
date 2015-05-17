@@ -1,4 +1,18 @@
 $(document).ready(function (){
+
+
+    //Converting button to side nav
+    $(window).scroll(function() {
+    if ($(this).scrollTop() < 200) {
+        $('#titleButton').css({'display': 'inline'});
+    }
+    else $('#titleButton').css({'display': 'none'});
+    });
+
+
+
+
+
     
     //Making nav stick to top when scrolling down
     var navOffset = jQuery("nav").offset().top;
