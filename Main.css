@@ -45,8 +45,9 @@ h1 {
   height: 100vh;
 }
 
-#pageTitle {
+.pageTitle {
 	text-align: center;
+  padding-top:40px;
 }
 
 #profileImage img {
@@ -82,6 +83,11 @@ h1 {
 
 #contactsPage {
   height: 80vh;
+}
+
+#followButtons {
+  text-align:center;
+  margin-top: 40px;
 }
 
 
