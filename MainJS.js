@@ -2,16 +2,19 @@ $(document).ready(function (){
 
 
     //Converting button to side nav
-    $(window).scroll(function() {
+    /*$(window).scroll(function() {
     if ($(this).scrollTop() < 200) {
-        $('#titleButton').css({'display': 'inline'});
+      $('#titleButton').css({'display': 'block'});
+      $('.sideNav').css({'display': 'none'});
     }
-    else $('#titleButton').css({'display': 'none'});
-    });
+    else {
+      $('#titleButton').css({'display': 'none'});
+      $('.sideNav').css({'display': 'block'});
+    }
+    });*/
 
 
-
-
+  
 
     
     //Making nav stick to top when scrolling down
@@ -24,7 +27,7 @@ $(document).ready(function (){
     	} else {
     		jQuery("nav").removeClass("fixed");
     	}
-    });
+    }); 
 
     //Nav Auto Scroll
     $("#profileLink").click(function() {
