@@ -15,7 +15,12 @@ li {
 
 
 h1 {
-    font-color: #EEE;
+  font-color: #EEE;
+}
+
+h4 {
+  font-color: #eee;
+  font-size: 20px;
 }
 
 
