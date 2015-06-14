@@ -1,3 +1,28 @@
+/* Color scheme */
+
+/*
+
+dark grey: #3d3c3a
+
+Medium blue:  #0e6eb8
+
+grey-blue: #9ec5e2
+
+red orange: e7512d
+
+white: #FFFFFF
+
+
+
+
+light grey: #dddad6
+
+*/
+
+
+
+
+
 
 ul {
     list-style-type: none;
@@ -71,10 +96,21 @@ h4 {
   margin-top: 23px;
 }
 
-/* ABILITIES PAGE */
+/*************** 
+
+ABILITIES PAGE 
+
+****************/
+
 
 #abilitiesPage {
   height: 100vh;
+}
+
+.abilities-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -83,6 +119,27 @@ h4 {
   height: 1px;
 
 }
+
+.ability-title{
+  display: inline-block;
+  width: 60%;
+}
+
+.ability-score {
+  float: right;
+}
+
+/* STAR ICONS */
+
+.glyphicon-star {
+  color: #0e6eb8;
+}
+
+.empty-star {
+  color: #dddad6;
+}
+
+
 
 /* CONTACT PAGE */
 
