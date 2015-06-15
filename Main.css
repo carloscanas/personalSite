@@ -20,7 +20,9 @@ light grey: #dddad6
 */
 
 
-
+html, body {
+  height: 100%;
+}
 
 
 
@@ -54,10 +56,12 @@ h4 {
   margin-right: auto;
   margin-left: auto;
   max-width: 1280px;
+  height:100%;
 }
 
 #mainContent {
   max-width: 1280px;
+  height:100%;
 }
 
 
@@ -69,7 +73,11 @@ h4 {
   height:100vh;
 }
 
-/* PROFILE PAGE */
+/**************************
+
+      PROFILE PAGE 
+
+***************************/
 
 #profilePage {
   height: 100vh;
@@ -85,8 +93,18 @@ h4 {
   margin: 0 auto;
 }
 
+#details {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-/* EXPERIENCE PAGE */
+
+/**************************
+
+      EXPERIENCE PAGE 
+
+***************************/
 
 #experiencePage {
   height: 100vh;
@@ -96,11 +114,11 @@ h4 {
   margin-top: 23px;
 }
 
-/*************** 
+/**************************
 
-ABILITIES PAGE 
+      ABILITIES PAGE 
 
-****************/
+***************************/
 
 
 #abilitiesPage {
@@ -129,6 +147,12 @@ ABILITIES PAGE
   float: right;
 }
 
+.ability-score p {
+  color: #0e6eb8;
+  font-weight: 600;
+}
+
+
 /* STAR ICONS */
 
 .glyphicon-star {
@@ -141,10 +165,14 @@ ABILITIES PAGE
 
 
 
-/* CONTACT PAGE */
+/**************************
+
+      CONTACT PAGE 
+
+***************************/
 
 #contactsPage {
-  height: 80vh;
+  height: 100vh;
 }
 
 #followButtons {
@@ -155,10 +183,13 @@ ABILITIES PAGE
 
 /* NAVIGATION BAR */
 
-#sidebar {
+.sideNav {
 	z-index: 1000;
-	top:8%;
-  float:right;
+  top: 5%;
+  position: absolute;
+  right: 5%;
+  width: 110px;
+  height: 100px;
 }
 
 nav {
