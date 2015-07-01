@@ -186,7 +186,11 @@ h4 {
 }
 
 
-/* NAVIGATION BAR */
+/**********************
+
+ NAVIGATION BAR 
+
+ ***********************/
 
 .sideNav {
 	z-index: 1000;
@@ -212,6 +216,19 @@ nav a {
   position: fixed;
 }
 
+/*.navbar {
+    display: none;
+  }*/
+
+.collapse {
+  display:none;
+}
+
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
 
 
 
@@ -289,11 +306,112 @@ nav a {
   	width: 6.866%;
 }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
+/******************** 
+
+      PHONE CSS
+
+*********************/
+
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
     
     .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
 	width: 100%; 
 	}
+
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    max-height: 200px;
+  }
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+
+
+
+/******************** 
+
+      TABLET CSS
+
+*********************/
+
+@media only screen and (max-width: 700px) {
+
+  .navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  }
+
+  .navbar {
+    border-radius: 4px;
+  }
+
+  .navbar-inverse {
+    background-color: #222222;
+    border-color: #080808;
+  }
+
+  .navbar-static-top {
+    z-index: 1000;
+    border-width: 0 0 1px;
+  }
+  .navbar-static-top {
+    border-radius: 0;
+  }
+
+  .navbar-collapse {
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .navbar-collapse.in {
+    overflow-y: auto;
+  }
+
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-static-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    max-height: 340px;
+  }
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
 }
