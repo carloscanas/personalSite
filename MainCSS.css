@@ -12,6 +12,8 @@ red orange: e7512d
 
 white: #FFFFFF
 
+light grey: #727878;
+
 
 
 
@@ -21,15 +23,15 @@ light grey: #dddad6
 
 
 html, body {
-  height: 100%;
+  font-family:'Open Sans', sans-serif !important;
 }
 
-body {
-  background: -webkit-linear-gradient(#FFF, #9ec5e2); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#FFF, #9ec5e2); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#FFF, #9ec5e2); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#FFF, #9ec5e2); /* Standard syntax (must be last) */
-}
+/*body {
+  background: -webkit-linear-gradient(#FFF, #9ec5e2);
+  background: -o-linear-gradient(#FFF, #9ec5e2);
+  background: -moz-linear-gradient(#FFF, #9ec5e2);
+  background: linear-gradient(#FFF, #9ec5e2);
+} */
 
 
 ul {
@@ -48,12 +50,29 @@ li {
 
 
 h1 {
-  font-color: #EEE;
+  color: #EEE !important;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #EEE !important;
+}
+
+h3 {
+  font-size: 20px;
+  color: #727878 !important;
+
 }
 
 h4 {
-  font-color: #eee;
   font-size: 20px;
+  color: #727878 !important;
+
+}
+
+p {
+  color: #434242 !important;
 }
 
 
@@ -72,6 +91,11 @@ h4 {
 
 .page {
   padding: 40px 100px;
+}
+
+hr {
+  border-color: #727878;
+  opacity: 0.2;
 }
 
 
@@ -142,12 +166,6 @@ h4 {
   padding: 0px;
 }
 
-
-.dividerLine {
-  border-bottom: 1px solid #000;
-  height: 1px;
-
-}
 
 .ability-title{
   display: inline-block;
@@ -343,6 +361,20 @@ nav a {
 
 @media only screen and (max-width: 768px) {
 
- 
+  .col {  margin: 1% 0 1% 0%; }
+    
+    .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+  width: 100%; 
+  }
+
+/**************************
+
+    PROFILE PAGE 
+
+ ***************************/
+
+ #profileImage img {
+  float: center;
+ }
 
 }
