@@ -50,17 +50,17 @@ li {
 
 
 h1 {
-  color: #EEE !important;
-  font-size: 20px;
+  color: #0e6eb8 !important;
+  font-size: 42px;
 }
 
 h2 {
-  font-size: 20px;
-  color: #EEE !important;
+  font-size: 32px;
+  color: #0e6eb8 !important;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 28px;
   color: #727878 !important;
 
 }
@@ -120,12 +120,14 @@ hr {
 
 .pageTitle {
 	text-align: center;
-  padding-top:40px;
+  padding-top:20px;
 }
 
 #profileImage img {
   display: table-caption;
   margin: 0 auto;
+  width:250px;
+  height:333px;
 }
 
 #details {
@@ -334,38 +336,23 @@ nav a {
   	width: 6.866%;
 }
 
-/******************** 
+/************************************************************* 
 
-      PHONE CSS
+                            PHONE CSS
 
-*********************/
+**************************************************************/
 
 @media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-    
-    .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
-	width: 100%; 
-	}
 
-
+.col {  margin: 1% 0 1% 0%; }
+  
+  .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+width: 100%; 
 }
 
-
-
-
-/******************** 
-
-      TABLET CSS
-
-*********************/
-
-@media only screen and (max-width: 768px) {
-
-  .col {  margin: 1% 0 1% 0%; }
-    
-    .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
-  width: 100%; 
-  }
+.page {
+  padding: 20px 10px;
+}
 
 /**************************
 
@@ -374,7 +361,42 @@ nav a {
  ***************************/
 
  #profileImage img {
-  float: center;
+  float: none;
+ }
+
+
+}
+
+
+
+
+/************************************************************* 
+
+                            TABLET CSS
+
+**************************************************************/
+
+@media only screen and (max-width: 956px) {
+
+  .col {  margin: 1% 0 1% 0%; }
+    
+  .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+    width: 100%; 
+  }
+
+
+.page {
+  padding: 40px 10px;
+}
+
+/**************************
+
+    PROFILE PAGE 
+
+ ***************************/
+
+ #profileImage img {
+  float: none;
  }
 
 }
