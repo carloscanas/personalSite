@@ -2,7 +2,9 @@
 
 /*
 
-dark grey: #3d3c3a
+dark grey: #434242
+
+tan: #F3EFE0;
 
 Medium blue:  #0e6eb8
 
@@ -57,7 +59,7 @@ h1 {
 
 h2 {
   font-size: 32px;
-  color: #0e6eb8 !important;
+  color: #FFFFFF !important;
 }
 
 h3 {
@@ -76,13 +78,21 @@ p {
   color: #434242 !important;
 }
 
+a {
+  color: #FFFFFF;
+}
+
+.aboutMeList a {
+  color: #434242;
+}
+
 
 
 #container {
   margin-right: auto;
   margin-left: auto;
   max-width: 1280px;
-  height:100%;
+  padding: 40px 180px;
 }
 
 #mainContent {
@@ -97,6 +107,14 @@ p {
 hr {
   border-color: #727878;
   opacity: 0.2;
+}
+
+.backgroundTan {
+  background: #F3EFE0;
+}
+
+.backgroundGrey {
+  background: #434242;
 }
 
 
@@ -219,6 +237,7 @@ hr {
 }
 
 
+
 /**********************
 
  NAVIGATION BAR 
@@ -287,6 +306,8 @@ nav a {
 	display: block;
 	float:left;
 	margin: 1% 0 1% 1.6%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .col:first-child { margin-left: 0; }
 
@@ -323,6 +344,10 @@ nav a {
   	width: 49.2%;
 }
 
+.span_6_of_12_2 {
+    width: 49.2%;
+}
+
 .span_5_of_12 {
   	width: 40.73%;
 }
@@ -349,7 +374,7 @@ nav a {
 
 **************************************************************/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 530px) {
 
 .col {  margin: 1% 0 1% 0%; }
   
@@ -359,6 +384,10 @@ width: 100%;
 
 .page {
   padding: 20px 10px;
+}
+
+#container {
+  padding: 40px 20px;
 }
 
 /**************************
@@ -388,13 +417,18 @@ width: 100%;
 
   .col {  margin: 1% 0 1% 0%; }
     
-  .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+    
+  .span_6_of_12_2 {
     width: 100%; 
   }
 
 
 .page {
   padding: 5px 10px;
+}
+
+#container {
+  padding: 40px 20px;
 }
 
 /**************************
