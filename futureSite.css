@@ -1,0 +1,467 @@
+/* Color scheme */
+
+/*
+
+dark grey: #434242
+
+tan: #F3EFE0;
+
+Medium blue:  #0e6eb8
+
+grey-blue: #9ec5e2
+
+red orange: e7512d
+
+white: #FFFFFF
+
+light grey: #727878;
+
+
+
+
+light grey: #dddad6
+
+*/
+
+
+html, body {
+  font-family:'Open Sans', sans-serif !important;
+}
+
+/*body {
+  background: -webkit-linear-gradient(#FFF, #9ec5e2);
+  background: -o-linear-gradient(#FFF, #9ec5e2);
+  background: -moz-linear-gradient(#FFF, #9ec5e2);
+  background: linear-gradient(#FFF, #9ec5e2);
+} */
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+
+
+
+h1 {
+  color: #0e6eb8 !important;
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #FFFFFF !important;
+}
+
+h3 {
+  font-size: 28px;
+  color: #727878 !important;
+
+}
+
+h4 {
+  font-size: 20px;
+  color: #727878 !important;
+
+}
+
+p {
+  color: #434242 !important;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+.aboutMeList a {
+  color: #434242;
+}
+
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1280px;
+  padding: 40px 180px;
+}
+
+#mainContent {
+  max-width: 1280px;
+  height:100%;
+}
+
+.page {
+  padding: 5px 20px;
+  height: 100%;
+}
+
+hr {
+  border-color: #727878;
+  opacity: 0.2;
+}
+
+.backgroundTan {
+  background: #F3EFE0;
+}
+
+.backgroundGrey {
+  background: #434242;
+}
+
+.backgroundWhite {
+  background: #FFFFFF;
+}
+
+.backgroundLightGrey {
+  background: #9ec5e2;
+  height:100vh;
+}
+
+.fullScreen{
+  height:100vh;
+}
+
+
+
+
+/* TITLE PAGE */
+
+#titlePage {
+	text-align:center;
+  height:100vh;
+}
+
+/**************************
+
+      PROFILE PAGE 
+
+***************************/
+
+#profilePage {
+  height: 40vh;
+}
+
+.pageTitle {
+	text-align: center;
+  padding-top:20px;
+}
+
+#profileImage img {
+  display: table-caption;
+  margin: 0 auto;
+  width:250px;
+  height:333px;
+  position: relative;
+  /*left: 50%;*/
+}
+
+#details {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 53%;
+}
+
+.aboutMeList ul li {
+  display: inline;
+}
+
+
+/**************************
+
+      EXPERIENCE PAGE 
+
+***************************/
+
+#experiencePage {
+  height: 100vh;
+}
+
+.experienceList {
+  margin-top: 23px;
+}
+
+/**************************
+
+      ABILITIES PAGE 
+
+***************************/
+
+
+#abilitiesPage {
+  height: 100vh;
+}
+
+.abilities-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.ability-title{
+  display: inline-block;
+  width: 60%;
+}
+
+.ability-score {
+  float: right;
+}
+
+.ability-score p {
+  color: #0e6eb8;
+  font-weight: 600;
+}
+
+
+/* STAR ICONS */
+
+.glyphicon-star {
+  color: #0e6eb8;
+}
+
+.empty-star {
+  color: #dddad6;
+}
+
+
+
+/**************************
+
+      CONTACT PAGE 
+
+***************************/
+
+#contactsPage {
+  height: 40vh;
+}
+
+#followButtons {
+  text-align:center;
+  margin-top: 40px;
+}
+
+a img {
+  height: 32px;
+  margin-right: 5px;
+}
+
+
+
+/**********************
+
+ NAVIGATION BAR 
+
+ ***********************/
+
+.sideNav {
+	z-index: 1000;
+  background-color: #903D3D;
+  top: 5%;
+  position: absolute;
+  right: 5%;
+  width: 110px;
+  height: 200px;
+}
+
+
+nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position:fixed;
+  width:110px;
+}
+
+nav a { 
+  display: inline; 
+  color:#FFFFFF;
+}
+
+.fixed {
+  position: fixed;
+}
+
+/*.navbar {
+    display: none;
+  }*/
+
+.collapse {
+  display:none;
+}
+
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+
+
+
+
+
+
+/***** GRID CSS *****/
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWELVE  */
+.span_12_of_12 {
+	width: 100%;
+}
+
+.span_11_of_12 {
+  	width: 91.53%;
+}
+.span_10_of_12 {
+  	width: 83.06%;
+}
+
+.span_9_of_12 {
+  	width: 74.6%;
+}
+
+.span_8_of_12 {
+  	width: 66.13%;
+}
+
+.span_7_of_12 {
+  	width: 57.66%;
+}
+
+.span_6_of_12 {
+  	width: 49.2%;
+}
+
+.span_6_of_12_2 {
+    width: 49.2%;
+}
+
+.span_5_of_12 {
+  	width: 40.73%;
+}
+
+.span_4_of_12 {
+  	width: 32.26%;
+}
+
+.span_3_of_12 {
+  	width: 23.8%;
+}
+
+.span_2_of_12 {
+  	width: 15.33%;
+}
+
+.span_1_of_12 {
+  	width: 6.866%;
+}
+
+/************************************************************* 
+
+                            PHONE CSS
+
+**************************************************************/
+
+@media only screen and (max-width: 530px) {
+
+.col {  margin: 1% 0 1% 0%; }
+  
+  .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+width: 100%; 
+}
+
+.page {
+  padding: 20px 10px;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+
+/**************************
+
+    PROFILE PAGE 
+
+ ***************************/
+
+ #profileImage img {
+  float: none;
+  left: 0%;
+ }
+
+
+}
+
+
+
+
+/************************************************************* 
+
+                            TABLET CSS
+
+**************************************************************/
+
+@media only screen and (max-width: 956px) {
+
+  .col {  margin: 1% 0 1% 0%; }
+    
+    
+  .span_6_of_12_2 {
+    width: 100%; 
+  }
+
+
+.page {
+  padding: 5px 10px;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+
+
+/**************************
+
+    PROFILE PAGE 
+
+ ***************************/
+
+ #profileImage img {
+  float: none;
+  left: 0%;
+ }
+
+}
