@@ -2,24 +2,17 @@
 
 /*
 
-dark grey: #434242
+Blue #1696d2;
 
-tan: #F3EFE0;
+LightGrey #f5f5f5;
 
-Medium blue:  #0e6eb8
+White #fff;
 
-grey-blue: #9ec5e2
-
-red orange: e7512d
-
-white: #FFFFFF
-
-light grey: #727878;
+Black #000;
 
 
+Yellow: #fdbf11; Use in small quantities
 
-
-light grey: #dddad6
 
 */
 
@@ -92,7 +85,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   max-width: 1280px;
-  padding: 40px 180px;
+  padding: 40px 80px;
 }
 
 #mainContent {
@@ -110,11 +103,17 @@ hr {
   opacity: 0.2;
 }
 
+
+/**********************
+
+BACKGROUND COLORS
+
+***********************/
 .backgroundTan {
   background: #F3EFE0;
 }
 
-.backgroundGrey {
+.backgroundDarkGrey {
   background: #434242;
 }
 
@@ -122,10 +121,22 @@ hr {
   background: #FFFFFF;
 }
 
-.backgroundLightGrey {
-  background: #9ec5e2;
-  height:100vh;
+.backgroundRedOrange {
+  background: #e7512d;
 }
+
+.backgroundBlue {
+  background: #0e6eb8;
+}
+
+.backgroundLightGrey {
+  background: #f5f5f5;
+}
+
+.backgroundYellow {
+  background: #fdbf11;
+}
+
 
 .fullScreen{
   height:100vh;
@@ -419,7 +430,24 @@ width: 100%;
  #profileImage img {
   float: none;
   left: 0%;
+}
+ 
+
+
+
+ /**************************
+
+    EXPERIENCE PAGE 
+
+ ***************************/
+
+ .experienceList {
+  margin-top: 2px;
+  margin-bottom: 30px;
  }
+
+    
+
 
 
 }
