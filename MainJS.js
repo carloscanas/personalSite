@@ -52,7 +52,7 @@ $(document).ready(function (){
     });*/
     $("#contactLink").click(function() {
       $('html, body').animate({
-        scrollTop: $("#contactsPage").offset().top
+        scrollTop: $("#contactPage").offset().top
       }, 750);
     });
 

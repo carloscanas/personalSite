@@ -182,6 +182,7 @@ BACKGROUND COLORS
   margin-left: auto;
   margin-right: auto;
   min-width: 53%;
+  float: right;
 }
 
 .aboutMeList ul li {
@@ -196,7 +197,7 @@ BACKGROUND COLORS
 ***************************/
 
 #experiencePage {
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .experienceList {
@@ -402,60 +403,6 @@ nav {
   	width: 6.866%;
 }
 
-/************************************************************* 
-
-                            PHONE CSS
-
-**************************************************************/
-
-@media only screen and (max-width: 530px) {
-
-.col {  margin: 1% 0 1% 0%; }
-  
-  .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
-width: 100%; 
-}
-
-.page {
-  padding: 20px 10px;
-}
-
-.container {
-  padding: 40px 20px;
-}
-
-
-/**************************
-
-    PROFILE PAGE 
-
- ***************************/
-
- #profileImage img {
-  float: none;
-  left: 0%;
-}
- 
-
-
-
- /**************************
-
-    EXPERIENCE PAGE 
-
- ***************************/
-
- .experienceList {
-  margin-top: 2px;
-  margin-bottom: 30px;
- }
-
-    
-
-
-
-}
-
 
 
 
@@ -494,9 +441,17 @@ width: 100%;
 
 }
 
+#details {
+  float: left;
+}
+
 
 @media only screen and (max-width: 760px) {
 
+
+.container {
+  padding: 40px 40px;
+}
 
 /**************************
 
@@ -530,6 +485,61 @@ width: 100%;
 } 
 
 
+
+
+
+}
+
+
+/************************************************************* 
+
+                            PHONE CSS
+
+**************************************************************/
+
+@media only screen and (max-width: 530px) {
+
+.col {  margin: 1% 0 1% 0%; }
+  
+  .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+width: 100%; 
+}
+
+.page {
+  padding: 20px 10px;
+}
+
+.container {
+  padding: 40px 10px;
+}
+
+
+/**************************
+
+    PROFILE PAGE 
+
+ ***************************/
+
+ #profileImage img {
+  float: none;
+  left: 0%;
+}
+ 
+
+
+
+ /**************************
+
+    EXPERIENCE PAGE 
+
+ ***************************/
+
+ .experienceList {
+  margin-top: 2px;
+  margin-bottom: 30px;
+ }
+
+    
 
 
 
