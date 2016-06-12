@@ -49,18 +49,18 @@ li {
 
 
 h1 {
-  color: #0e6eb8 !important;
-  font-size: 42px;
+  color: #ffffff !important;
+  font-size: 82px;
 }
 
 h2 {
-  font-size: 32px;
-  color: #FFFFFF !important;
+  font-size: 42px;
+  color: #0e6eb8;
 }
 
 h3 {
   font-size: 28px;
-  color: #727878 !important;
+  color: #ffffff !important;
 
 }
 
@@ -140,6 +140,10 @@ BACKGROUND COLORS
   background: #fdbf11;
 }
 
+.backgroundTitle {
+    background: no-repeat center center fixed url(Assets/title.jpg);
+}
+
 
 .fullScreen{
   height:100vh;
@@ -147,12 +151,26 @@ BACKGROUND COLORS
 
 
 
+/**************************
 
-/* TITLE PAGE */
+      TITLE PAGE 
+
+***************************/
 
 #titlePage {
-	text-align:center;
+  text-align:center;
   height:100vh;
+}
+
+#mainTitle {
+  position:relative;
+  top: 25%
+}
+
+#mainTitle h1 {
+    font-size: 82px;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
 }
 
 /**************************
@@ -166,17 +184,17 @@ BACKGROUND COLORS
 }
 
 .pageTitle {
-	text-align: center;
-  padding-top:20px;
+    text-align: center;
 }
 
 #profileImage img {
   display: table-caption;
   margin: 0 auto;
-  width:250px;
-  height:333px;
+  max-width:200px;
+  height:auto;
   position: relative;
-  /*left: 50%;*/
+  border-radius: 50%;
+  border: 2px solid #ffffff;
 }
 
 #details {
@@ -203,6 +221,14 @@ BACKGROUND COLORS
 
 .experienceList {
   margin-top: 23px;
+}
+
+#resume {
+    text-align: center;
+}
+
+#resume a {
+    color: #0e6eb8;
 }
 
 /**************************
@@ -276,6 +302,7 @@ a img {
 
 #contactPage h2 {
     font-size: 42px;
+    color: #FFFFFF;
 }
 
 
