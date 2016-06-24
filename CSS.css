@@ -210,6 +210,10 @@ BACKGROUND COLORS
     text-align: center;
 }
 
+#resume p {
+    font-weight: bold;
+}
+
 #resume a {
     color: #0e6eb8;
 }
